@@ -5,7 +5,7 @@ def new_game():
     correct_guesses = 0
     question_num = 1
 
-    for key in question_num:
+    for key in questions:
         print(key)
 # ------------------
 def check_answer():
@@ -19,10 +19,10 @@ def play_again():
 
 
 questions = {
-    "Michael Jordan played with what number for Chicago Bulls?": ":"A",
-    "Wich team was Lebron James first team?": ":"B",
-    "What year was nba invented?": ":"D",
-    "Who won 2022 nba championship?" ":"D",
+    "Michael Jordan played with what number for Chicago Bulls?": "A",
+    "Wich team was Lebron James first team?": "B",
+    "What year was nba invented?": "D",
+    "Who won 2022 nba championship?": "D",
 }
 
 options = [["A. 23", "B. 24", "C. 25", "D. 26"],
