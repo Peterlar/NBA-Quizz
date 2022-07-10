@@ -14,15 +14,36 @@ def new_game():
         guess = guess.upper()
         guesses.append(guess)
 
-        check_answer(questions.get(key),guess)
+        correct_guesses += check_answer(questions.get(key),guess)
         question_num += 1
+
+    display_score(correct_guesses, guesses)
+        
 
 # ------------------
 def check_answer(answer, guess):
-    pass
+    
+    if answer == guess:
+        print("That is the right answer =)")
+        return 1
+    else:
+        print("That is the wrong answer =(")
+        return 0
 # ------------------
-def display_score():
-    pass
+def display_score(correct_guesses, guesses):
+    print("-------------------------------")
+    print("RESULTS")
+    print("-------------------------------")
+
+    print("Answers:, end=")
+    for i in questions:
+        print(questions.get(i), end=" ")
+    print()
+
+    print("Guesses:, end=")
+    for i in guesses:
+        print(i , end=" ")
+    print()
 # ------------------
 def play_again():
     pass
