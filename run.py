@@ -10,11 +10,15 @@ def new_game():
         print(key)
         for i in options[question_num-1]:
             print(i)
+        guess = input("Enter (A, B, C or D): ")
+        guess = guess.upper()
+        guesses.append(guess)
 
+        check_answer(questions.get(key),guess)
         question_num += 1
 
 # ------------------
-def check_answer():
+def check_answer(answer, guess):
     pass
 # ------------------
 def display_score():
