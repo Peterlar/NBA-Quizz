@@ -6,7 +6,7 @@ def new_game():
     question_num = 1
 
     for key in questions:
-        print("-------------------------------")
+        print("-------------------------------------------------------")
         print(key)
         for i in options[question_num-1]:
             print(i)
