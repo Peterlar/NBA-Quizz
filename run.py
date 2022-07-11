@@ -1,6 +1,18 @@
+# import pyfiglet module for ascii art
+import pyfiglet
+
+def welcome():
+    """
+    Title & welcome message
+    """
+    title = pyfiglet.figlet_format(
+        "NBA QUIZZ", font="standard", justify="center")
+    print(title)
+
 # ------------------
 def new_game():
     
+    name_data = input("Enter your name here to begin:\n")
     guesses = []
     correct_guesses = 0
     question_num = 1
