@@ -35,15 +35,18 @@ def display_score(correct_guesses, guesses):
     print("RESULTS")
     print("-------------------------------")
 
-    print("Answers:, end=")
+    print("Answers:")
     for i in questions:
         print(questions.get(i), end=" ")
     print()
 
-    print("Guesses:, end=")
+    print("Guesses:")
     for i in guesses:
-        print(i , end=" ")
+        print((i), end=" ")
     print()
+
+    score = int((correct_guesses/len(questions))*100)
+    print("Your score is: "+str(score)+"%")
 # ------------------
 def play_again():
     pass
