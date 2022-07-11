@@ -49,7 +49,16 @@ def display_score(correct_guesses, guesses):
     print("Your score is: "+str(score)+"%")
 # ------------------
 def play_again():
-    pass
+    
+    response = input("Do you want to play again? (Yes or No?): ")
+    response = response.upper()
+
+    if response == "YES":
+        return True
+    else:
+        return False
+
+
 
 
 questions = {
@@ -65,3 +74,8 @@ options = [["A. 23", "B. 24", "C. 25", "D. 26"],
           ["A. Lakers", "B. Boston", "C. Bulls", "D. Warriors"]]
 
 new_game()
+
+while play_again():
+    new_game()
+
+print("Have a nice day!")
