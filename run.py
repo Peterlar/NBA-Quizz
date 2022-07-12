@@ -8,10 +8,12 @@ def welcome():
     title = pyfiglet.figlet_format(
         "NBA QUIZZ", font="standard", justify="center")
     print(title)
+    print("Created by Peter Larsson".center(80) + "\n")
 
 # ------------------
 def new_game():
     
+    welcome()
     name_data = input("Enter your name here to begin:\n")
     guesses = []
     correct_guesses = 0
