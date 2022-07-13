@@ -81,6 +81,8 @@ questions = {
     "What year was nba invented?": "D",
     "What team is not in the atlantic division?": "C",
     "Wich team won the first NBA championship?": "A",
+    "Wich team lost the first NBA championship?": "B",
+    "How many times have NBA expanded?": "C",
     "Who won 2022 nba championship?": "D",
 }
 
@@ -89,6 +91,8 @@ options = [["A. 23", "B. 24", "C. 25", "D. 26"],
           ["A. 1944", "B. 1945", "C. 1947", "D. 1946"],
           ["A. Celtics", "B. Nets", "C. Bulls", "D. Knicks"],
           ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
+          ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
+          ["A. 10", "B. 12", "C. 11", "D. 9"],
           ["A. Lakers", "B. Boston", "C. Bulls", "D. Warriors"]]
 
 new_game()
