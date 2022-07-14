@@ -73,8 +73,6 @@ def play_again():
         return False
 
 
-
-
 questions = {
     "Michael Jordan played with what number for Chicago Bulls?": "A",
     "Wich team was Lebron James first team?": "B",
