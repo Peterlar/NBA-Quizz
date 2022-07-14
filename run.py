@@ -87,13 +87,13 @@ questions = {
 }
 
 options = [["A. 23", "B. 24", "C. 25", "D. 26"],
-          ["A. Lakers", "B. Cleveland", "C. Miami", "D. Bucks"],
-          ["A. 1944", "B. 1945", "C. 1947", "D. 1946"],
-          ["A. Celtics", "B. Nets", "C. Bulls", "D. Knicks"],
-          ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
-          ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
-          ["A. 10", "B. 12", "C. 11", "D. 9"],
-          ["A. Lakers", "B. Boston", "C. Bulls", "D. Warriors"]]
+        ["A. Lakers", "B. Cleveland", "C. Miami", "D. Bucks"],
+        ["A. 1944", "B. 1945", "C. 1947", "D. 1946"],
+        ["A. Celtics", "B. Nets", "C. Bulls", "D. Knicks"],
+        ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
+        ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
+        ["A. 10", "B. 12", "C. 11", "D. 9"],
+        ["A. Lakers", "B. Boston", "C. Bulls", "D. Warriors"]]
 
 new_game()
 
