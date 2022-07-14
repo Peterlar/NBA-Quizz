@@ -12,7 +12,7 @@ def welcome():
 
 # ------------------
 def new_game():
-    
+
     welcome()
     name_data = input("Enter your name here to begin:\n")
     guesses = []
@@ -32,11 +32,11 @@ def new_game():
         question_num += 1
 
     display_score(correct_guesses, guesses)
-        
+   
 
 # ------------------
 def check_answer(answer, guess):
-    
+ 
     if answer == guess:
         print("That is the right answer =)")
         return 1
@@ -63,7 +63,7 @@ def display_score(correct_guesses, guesses):
     print("Your score is: "+str(score)+"%")
 # ------------------
 def play_again():
-    
+
     response = input("Do you want to play again? (Yes or No?): ")
     response = response.upper()
 
