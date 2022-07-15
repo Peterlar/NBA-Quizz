@@ -14,3 +14,13 @@ NBA Quizz is based from the different quizzes you will se every week from the di
 When you enter the app you must enter your name and you will be directed to the first question. You will then have 4 different options to choose from. A, B, C, or D.
 Choose one of the answers and then hit "ENTER". The player will be notified with an message if the answer is correct or not.
 The guesses will be gathered in the end of the quizz and the right answers will be available. The player will recive and procentage showing how many guesses was right and then asked if you want to try again. 
+
+# **Features**
+
+* Ascii design on the logo ( NBA QUIZZ )
+
+![image](https://user-images.githubusercontent.com/100356636/179201570-ea226adf-08ab-4c36-8d97-d8a5e6cd22e3.png)
+
+* Enter your name to start the game
+
+![image](https://user-images.githubusercontent.com/100356636/179202722-750f3210-3c59-4b97-9127-df6585c5b326.png)
