@@ -17,10 +17,14 @@ The guesses will be gathered in the end of the quizz and the right answers will 
 
 # **Features**
 
-* Ascii design on the logo ( NBA QUIZZ )
+* Ascii design on the logo ( NBA QUIZZ ).
 
 ![image](https://user-images.githubusercontent.com/100356636/179201570-ea226adf-08ab-4c36-8d97-d8a5e6cd22e3.png)
 
-* Enter your name to start the game
+* Enter your name to start the game.
 
 ![image](https://user-images.githubusercontent.com/100356636/179202722-750f3210-3c59-4b97-9127-df6585c5b326.png)
+
+* Questions with multiple answers. Player will be notified with an message if the answer is correct or not.
+
+![image](https://user-images.githubusercontent.com/100356636/179208078-cc31b025-306e-455f-aca1-31253ebf6a68.png)
