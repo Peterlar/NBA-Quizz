@@ -38,4 +38,20 @@ The guesses will be gathered in the end of the quizz and the right answers will 
 * Highscore List
 * NBA Highlights of the week.
 
+# **Libraries & Technology Used**
+
+* Pyfiglet for adding ascii art.
+
+
 # **Testing**
+
+I have manually tested this project by doing:
+
+* Passed the code through a PEP8 linter and confirmed there are no problems.
+* Tested in my lokal terminal and the Code Institute Heroku Terminal.
+* Tested the game after each question was added to check it worked.
+
+**Bugs**
+
+* During the project i was getting type of errors that was caused by not have entered enough blankspaces. It was solved during the PEP8 linter testing.
+
