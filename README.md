@@ -29,6 +29,13 @@ The guesses will be gathered in the end of the quizz and the right answers will 
 
 ![image](https://user-images.githubusercontent.com/100356636/179208078-cc31b025-306e-455f-aca1-31253ebf6a68.png)
 
+# **Deployment**
+
+The site was deployed via Heroku.
+This project was developed utilising the Code Institute Template. 
+
+Before deploying to Heroku pip3 freeze > requirements.txt was used to add pyfiglet for deployment.
+
 * Results will show the guesses from the player and the correct answers. Below an procentage will be visible displaying the score. Player will also be able to play again by answering "YES" or "No" and then hit enter. If player enters "NO" and message will occur or the game restarts from the beginning.
 
 ![image](https://user-images.githubusercontent.com/100356636/179210332-38ce30c7-5920-49c7-8077-3e5ff9f36bb3.png)
