@@ -64,3 +64,28 @@ I have manually tested this project by doing:
 
 ![image](https://user-images.githubusercontent.com/100356636/179350205-58a01b94-3ffe-4700-ba32-661d67e3bc72.png)
 
+# **Deployment**
+
+The site was deployed via Heroku. This project was developed utilising the Code Institute Template.
+
+Before deploying to Heroku pip3 freeze > requirements.txt was used to add pyfiglet for deployment.
+
+1.	Log in to [Heroku]( https://id.heroku.com/login) or create an account if required.
+2.	Then, click the button labelled **New** from the dashboard in the top right corner and from the drop-down menu select **Create New App**.
+3.	You must enter a unique app name, (I used mastermind-code-breaker).
+4.	Next, select your region, (I chose Europe as I am in Ireland).
+5.	Click on the **Create App** button.
+6.	The next page you will see is the project’s Deploy Tab.  Click on the **Settings Tab** and scroll down to **Config Vars**.
+7.	Next, scroll down to the Buildpack section click **Add Buildpack** select **python** and click **Save Changes**.
+8.	Repeat step 8 to add **node.js**.
+o	**Note:** The Buildpacks must be in the correct order. If not click and drag them to move into the correct order.
+9.	Scroll to the top of the page and now choose the **Deploy** tab.
+10.	Select **Github** as the deployment method.
+11.	Confirm you want to connect to GitHub.
+12.	Search for the repository name and click the connect button.
+13.	Scroll to the bottom of the deploy page and select preferred deployment type:
+
+* Click either **Enable Automatic Deploys** for automatic deployment when you push updates to Github.
+
+
+* Select the correct branch for deployment from the drop-down menu and click **Deploy Branch** for manual deployment.
