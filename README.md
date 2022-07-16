@@ -73,7 +73,7 @@ Before deploying to Heroku pip3 freeze > requirements.txt was used to add pyfigl
 1.	Log in to [Heroku]( https://id.heroku.com/login) or create an account if required.
 2.	Then, click the button labelled **New** from the dashboard in the top right corner and from the drop-down menu select **Create New App**.
 3.	You must enter a unique app name, (I used mastermind-code-breaker).
-4.	Next, select your region, (I chose Europe as I am in Sweden).
+4.	Next, select your region, (I choose Europe as I am in Sweden).
 5.	Click on the **Create App** button.
 6.	The next page you will see is the project’s Deploy Tab.  Click on the **Settings Tab** and scroll down to **Config Vars**.
 7.	Next, scroll down to the Buildpack section click **Add Buildpack** select **python** and click **Save Changes**.
