@@ -89,3 +89,11 @@ o	**Note:** The Buildpacks must be in the correct order. If not click and drag t
 
 
 * Select the correct branch for deployment from the drop-down menu and click **Deploy Branch** for manual deployment.
+
+# **Credits**
+
+* During this project i was watching different tutorials to get ideas and help with the coding. I want to say thanks to " Mike Dane" and " Bro Code " for great tutorials. 
+
+* I also want to say thanks to my mentor Daisy Mc Girr for great help and tools during this project.
+
+* Tutor support has also as always been a great help during this project and the slack community that helped me with the ascii art coding.
