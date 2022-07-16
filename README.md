@@ -55,3 +55,5 @@ I have manually tested this project by doing:
 
 * During the project i was getting type of errors that was caused by not have entered enough blankspaces. It was solved during the PEP8 linter testing.
 
+![image](https://user-images.githubusercontent.com/100356636/179350205-58a01b94-3ffe-4700-ba32-661d67e3bc72.png)
+
