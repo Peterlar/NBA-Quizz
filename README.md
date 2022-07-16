@@ -33,3 +33,8 @@ The guesses will be gathered in the end of the quizz and the right answers will 
 
 ![image](https://user-images.githubusercontent.com/100356636/179210332-38ce30c7-5920-49c7-8077-3e5ff9f36bb3.png)
 
+**Future Features:**
+* Weekly new questions
+* Highscore List
+* NBA Highlights of the week.
+
