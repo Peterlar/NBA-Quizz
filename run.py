@@ -1,6 +1,7 @@
 # import pyfiglet module for ascii art
 import pyfiglet
 
+
 def welcome():
     """
     Title & welcome message
@@ -9,6 +10,7 @@ def welcome():
         "NBA QUIZZ", font="standard", justify="center")
     print(title)
     print("Created by Peter Larsson".center(80) + "\n")
+
 
 # ------------------
 def new_game():
@@ -28,15 +30,16 @@ def new_game():
         guess = guess.upper()
         guesses.append(guess)
 
-        correct_guesses += check_answer(questions.get(key),guess)
+        correct_guesses += check_answer(questions.get(key), guess)
         question_num += 1
 
     display_score(correct_guesses, guesses)
-   
+
+
 
 # ------------------
 def check_answer(answer, guess):
- 
+
     if answer == guess:
         print("That is the right answer =)")
         return 1
@@ -44,6 +47,8 @@ def check_answer(answer, guess):
         print("That is the wrong answer =(")
         return 0
 # ------------------
+
+
 def display_score(correct_guesses, guesses):
     print("-------------------------------")
     print("RESULTS")
@@ -62,6 +67,8 @@ def display_score(correct_guesses, guesses):
     score = int((correct_guesses/len(questions))*100)
     print("Your score is: "+str(score)+"%")
 # ------------------
+
+
 def play_again():
 
     response = input("Do you want to play again? (Yes or No?): ")
@@ -85,13 +92,13 @@ questions = {
 }
 
 options = [["A. 23", "B. 24", "C. 25", "D. 26"],
-        ["A. Lakers", "B. Cleveland", "C. Miami", "D. Bucks"],
-        ["A. 1944", "B. 1945", "C. 1947", "D. 1946"],
-        ["A. Celtics", "B. Nets", "C. Bulls", "D. Knicks"],
-        ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
-        ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
-        ["A. 10", "B. 12", "C. 11", "D. 9"],
-        ["A. Lakers", "B. Boston", "C. Bulls", "D. Warriors"]]
+           ["A. Lakers", "B. Cleveland", "C. Miami", "D. Bucks"],
+           ["A. 1944", "B. 1945", "C. 1947", "D. 1946"],
+           ["A. Celtics", "B. Nets", "C. Bulls", "D. Knicks"],
+           ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
+           ["A. Warriors", "B. Stags", "C. Bullets", "D. Capitols"],
+           ["A. 10", "B. 12", "C. 11", "D. 9"],
+           ["A. Lakers", "B. Boston", "C. Bulls", "D. Warriors"]]
 
 new_game()
 
